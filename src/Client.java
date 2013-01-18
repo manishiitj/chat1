@@ -1,10 +1,10 @@
-
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 import java.awt.*;
 import javax.swing.*;
 
+// client interface
 public class Client extends Activity implements OnClickListener, OnTouchListener  {
     private static final String TAG = "Client";
     private Button connectButton;
