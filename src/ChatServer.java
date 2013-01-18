@@ -27,7 +27,7 @@ public class  ChatServer {
 	       if ( ! c.getUserName().equals(user) )
 	          c.sendMessage(user,message);
   }
-
+// for handling the chat thread
   class  HandleClient extends Thread {
         String name = "";
 	BufferedReader input;
